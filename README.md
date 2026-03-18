@@ -1,7 +1,7 @@
 # Exercices C — Franck Sawadogo
 
-Apprentissage du langage C en première année de GEI
-à l'Institut Supérieur de Technologie du Burkina Faso.
+Apprentissage du langage C en première année de électronique et informatique industrielle
+à l'Institut Supérieur de Technologie.
 
 ## Contenu
 - Variables et calculs
