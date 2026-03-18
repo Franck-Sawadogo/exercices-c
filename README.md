@@ -1,6 +1,6 @@
 # Exercices C — Franck Sawadogo
 
-Apprentissage du langage C en première année en électronique et informatique industrielle
+Apprentissage du langage C en première année d'électronique et informatique industrielle
 Institut Supérieur de Technologie · Burkina Faso · 2026
 
 ---
