@@ -1,0 +1,43 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+typedef float(*operation)(float);
+
+void AfficherMenu() {
+    printf("=====MENU====\n");
+    printf("1. Convertion en metre\n");
+    printf("2. Convertion en kilo\n");
+    printf("3. Convertion en litre\n");
+    printf("=================\n");
+}
+
+float convertirEnMetre(float a){
+	return a*1000;
+}
+
+float convertirEnKilo(float a) {
+	return a/1000;
+}
+
+float convertirEnLitre(float a) {
+	return a*1000;
+}
+
+int main(void) {
+	float a;
+	int choix;
+	
+	AfficherMenu();
+	printf("Choix: ");
+	scanf("%d",&choix);
+	
+	printf("entrez la valeur a convertir: ");
+	scanf("%f",&a);
+	
+	operation f[3] = {convertirEnMetre, convertirEnKilo, convertirEnLitre};
+	char* noms[3] = {"En metres", "En kilos", "En litres"};
+
+	printf("%s : %.2f\n", noms[choix-1], f[choix-1](a));
+
+	return 0;
+}
