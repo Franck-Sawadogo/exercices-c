@@ -17,6 +17,5 @@ int main(void)
 		printf("Different !");
 	}
     
-    
     return 0;
 }
