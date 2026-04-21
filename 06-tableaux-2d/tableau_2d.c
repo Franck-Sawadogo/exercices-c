@@ -24,7 +24,5 @@ int main(void)
 	
 	moyC = (float)somMoy/3;
 	printf("Moyenne de la classe: %.2f \n",moyC);
-	
-	
 	return 0;
 }
