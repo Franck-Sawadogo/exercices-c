@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 int main(void) {
     int note[3][3];
     float moyE;
