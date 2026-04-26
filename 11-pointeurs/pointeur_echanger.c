@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+
 void echanger(int* a, int* b) {
 	int temp;
     temp = *a;
